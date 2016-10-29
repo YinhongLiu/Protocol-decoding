@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 710x - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AE.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/710x.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\710x\710x.c"
+"C:\Users\Administrator\Desktop\710x\Ecg.c"
+"C:\Users\Administrator\Desktop\710x\m.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP5AE.tmp" 
+<h3>Output Window</h3>
+Compiling...
+710x.c
+Ecg.c
+m.c
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP8DA.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/710x.pdb" /debug /machine:I386 /out:"Debug/710x.exe" /pdbtype:sept 
+.\Debug\710x.obj
+.\Debug\Ecg.obj
+.\Debug\m.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP8DA.tmp"
+<h3>Output Window</h3>
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/710x.bsc"  .\Debug\710x.sbr .\Debug\Ecg.sbr .\Debug\m.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+710x.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
